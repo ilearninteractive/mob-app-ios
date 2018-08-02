@@ -20,6 +20,14 @@ fileprivate enum AccountviewOptions : Int {
 
 class AccountViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+//    @IBAction func nextButton(_ sender: UIButton){
+//        let vc = AdditionalPagesViewController(
+//                nibName: "TwoViewController",
+//                bundle: nil)
+//        navigationController?.pushViewController(vc,
+//                animated: true)
+//    }
+
     private let contentView = UIView()
     private let tableView = UITableView()
     private let versionLabel = UILabel()

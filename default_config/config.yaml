@@ -2,7 +2,7 @@ API_HOST_URL: 'https://edxmoe.ilearnme.com'
 ENVIRONMENT_DISPLAY_NAME: 'etraining.moe.gov.sa'
 PLATFORM_NAME: 'MOE'
 PLATFORM_DESTINATION_NAME: 'etraining.moe.gov.sa'
-FEEDBACK_EMAIL_ADDRESS: 'info@raccoongang.com'
+FEEDBACK_EMAIL_ADDRESS: 'support@ilearn.ws'
 DEBUG: true
 OAUTH_CLIENT_ID: '0d7d01a1f2a866866285'
 

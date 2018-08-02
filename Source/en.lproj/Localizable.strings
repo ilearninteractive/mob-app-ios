@@ -475,9 +475,9 @@
 /* Title for Course Item that was last accessed */
 "LAST_ACCESSED" = "Last Accessed";
 /* Prompt leading user to create account screen */
-"LOGIN_SPLASH_SIGN_UP"="Sign up and start learning";
+"LOGIN_SPLASH_SIGN_UP"="SIGN UP";
 /* Prompt leading user to sign in screen */
-"LOGIN_SPLASH_SIGN_IN"="Already have an account? Sign in";
+"LOGIN_SPLASH_SIGN_IN"="LOG IN";
 /* Button title to log out the current user */
 "LOGOUT"="Logout";
 /* Option to sort discussion post list by most activity */
