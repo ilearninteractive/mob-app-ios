@@ -12,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/Source/en.lproj/Localizable.strings" beforeDir="false" afterPath="$PROJECT_DIR$/Source/en.lproj/Localizable.strings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/default_config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/default_config/config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/default_config/local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/default_config/local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edX.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/edX.xcodeproj/project.pbxproj" afterDir="false" />
     </list>
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/edX-dqvhvqkzkwerrydojqhdeurxhile/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/Source/AccountViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="667">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#134#146#0" expanded="true" />
               </folding>
@@ -263,6 +264,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-334" y="-1177" width="1882" height="1177" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.4997367" visible="true" weight="0.3287037" />
@@ -433,7 +435,7 @@
     <entry file="file://$PROJECT_DIR$/Source/AccountViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#134#146#0" expanded="true" />
           </folding>
