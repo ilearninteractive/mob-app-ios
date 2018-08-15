@@ -809,3 +809,7 @@
 "WIFI_ONLY_DETAIL_MESSAGE" = "Sólo descargar contenido cuando el Wifi está encendido";
 /* Alert dialog button title to confirm an action */
 "YES"="Si";
+
+"ABOUT" = "ABOUT";
+"FAQ" = "FAQ";
+"CONTACTS" = "CONTACT US";

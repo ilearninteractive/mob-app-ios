@@ -475,11 +475,17 @@
 /* Title for Course Item that was last accessed */
 "LAST_ACCESSED" = "Last Accessed";
 /* Prompt leading user to create account screen */
-"LOGIN_SPLASH_SIGN_UP"="SIGN UP";
+"LOGIN_SPLASH_SIGN_UP"="Sign up and start learning";
 /* Prompt leading user to sign in screen */
-"LOGIN_SPLASH_SIGN_IN"="LOG IN";
+"LOGIN_SPLASH_SIGN_IN"="Already have an account? Sign in";
 /* Button title to log out the current user */
 "LOGOUT"="Logout";
+/* */
+"ABOUT"="About";
+/* */
+"FAQ"="Faq";
+/* */
+"CONTACTS"="Contact us";
 /* Option to sort discussion post list by most activity */
 "MOST_ACTIVITY"="Most Activity";
 /* Option to sort discussion post list by most votes */

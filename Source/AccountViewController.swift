@@ -13,20 +13,26 @@ fileprivate enum AccountviewOptions : Int {
     case Profile,
          UserSettings,
          SubmitFeedback,
+         About,
+         FAQ,
+         Contacts,
          Logout
     
-        static let accountOptions = [Profile, UserSettings, SubmitFeedback, Logout]
+        static let accountOptions = [Profile, UserSettings, SubmitFeedback, About, FAQ, Contacts, Logout]
 }
 
 class AccountViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
 //    @IBAction func nextButton(_ sender: UIButton){
-//        let vc = AdditionalPagesViewController(
-//                nibName: "TwoViewController",
-//                bundle: nil)
-//        navigationController?.pushViewController(vc,
-//                animated: true)
-//    }
+//    func nextButton(_ sender: UIButton){
+    func nextButton(urlPageToOpen: String){
+        let vc = AdditionalPagesViewController(
+                nibName: "AdditionalPagesViewController",
+                bundle: nil)
+        vc.urlPageToOpen = urlPageToOpen
+        navigationController?.pushViewController(vc,
+                animated: true)
+    }
 
     private let contentView = UIView()
     private let tableView = UITableView()
@@ -142,6 +148,12 @@ class AccountViewController: UIViewController, UITableViewDelegate, UITableViewD
                 environment.router?.showProfileForUsername(controller: self, username: currentUserName, editable: true)
             case .SubmitFeedback:
                 launchEmailComposer()
+            case .About:
+                nextButton(urlPageToOpen: "https://etraining.moe.gov.sa/about")
+            case .FAQ:
+                nextButton(urlPageToOpen: "https://etraining.moe.gov.sa/faq")
+            case .Contacts:
+                nextButton(urlPageToOpen: "https://etraining.moe.gov.sa/contact")
             case .Logout:
                 OEXFileUtility.nukeUserPIIData()
                 dismiss(animated: true, completion: { [weak self] in
@@ -182,6 +194,12 @@ class AccountViewController: UIViewController, UITableViewDelegate, UITableViewD
             return Strings.SubmitFeedback.optionTitle
         case .Logout:
             return Strings.logout
+        case .About:
+            return Strings.about
+        case .FAQ:
+            return Strings.faq
+        case .Contacts:
+            return Strings.contacts
         }
         
         return nil
