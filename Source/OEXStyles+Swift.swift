@@ -103,24 +103,12 @@ extension OEXStyles {
         return filledButtonStyle(color: OEXStyles.shared().primaryBaseColor())
     }
 
-    var borderedPrimaryButtonStyle : ButtonStyle {
-        return borderedButtonStyle(color: OEXStyles.shared().neutralWhite())
-    }
-
-    func borderedButtonStyle(color: UIColor) -> ButtonStyle {
-        let buttonMargins : CGFloat = 8
-        let borderStyle = BorderStyle(cornerRadius: BorderStyle.Radius.Size(0), width: BorderStyle.Width.Size(2), color: primaryBaseColor())
-        let textStyle = OEXTextStyle(weight: .bold, size: .base, color: self.primaryBaseColor())
-        return ButtonStyle(textStyle: textStyle, backgroundColor: color, borderStyle: borderStyle,
-                contentInsets : UIEdgeInsetsMake(buttonMargins, buttonMargins, buttonMargins, buttonMargins))
-    }
-
     func filledButtonStyle(color: UIColor) -> ButtonStyle {
         let buttonMargins : CGFloat = 8
         let borderStyle = BorderStyle()
-        let textStyle = OEXTextStyle(weight: .bold, size: .base, color: self.neutralWhite())
+        let textStyle = OEXTextStyle(weight: .semiBold, size: .base, color: self.neutralWhite())
         return ButtonStyle(textStyle: textStyle, backgroundColor: color, borderStyle: borderStyle,
-                contentInsets : UIEdgeInsetsMake(buttonMargins, buttonMargins, buttonMargins, buttonMargins))
+                           contentInsets : UIEdgeInsetsMake(buttonMargins, buttonMargins, buttonMargins, buttonMargins))
     }
     
     var linkButtonStyle: ButtonStyle {
