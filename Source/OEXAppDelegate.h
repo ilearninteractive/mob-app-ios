@@ -12,6 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class OEXCourse;
+@class SSOLoginViewController;
 
 @interface OEXAppDelegate : UIResponder
 

@@ -81,8 +81,8 @@
     [self.environment.router openInWindow:self.window];
     
     [self configureFabricKits:launchOptions];
-    
-    
+//    self.window.rootViewController = SSOLoginViewController();
+
     return [[FBSDKApplicationDelegate sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
