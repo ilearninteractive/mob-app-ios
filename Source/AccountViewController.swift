@@ -23,8 +23,6 @@ fileprivate enum AccountviewOptions : Int {
 
 class AccountViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-//    @IBAction func nextButton(_ sender: UIButton){
-//    func nextButton(_ sender: UIButton){
     func nextButton(urlPageToOpen: String){
         let vc = AdditionalPagesViewController(
                 nibName: "AdditionalPagesViewController",

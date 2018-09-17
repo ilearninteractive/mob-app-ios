@@ -47,6 +47,8 @@ extern NSString* OEXSideNavigationChangedStateKey;
 
 - (void)openInWindow:(nullable UIWindow*)window;
 
+- (void)showLoggedInContent;
+
 #pragma mark Presentation
 - (void)presentViewController:(UIViewController*)controller fromController:(nullable UIViewController*)fromController completion:(nullable void(^)(void))completion;
 

@@ -124,8 +124,9 @@
 		22F6A15F20BD2D06009C3F4A /* String+DecodeHTMLEntitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6A15E20BD2D05009C3F4A /* String+DecodeHTMLEntitiesTests.swift */; };
 		22F8A9101F45EFAF0025E18A /* AccountViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F8A90F1F45EFAF0025E18A /* AccountViewControllerTest.swift */; };
 		22F8A9141F4708A50025E18A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F8A9131F4708A50025E18A /* Main.storyboard */; };
-		2455555B214A6D490087D5F6 /* SSOLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2455555A214A6D490087D5F6 /* SSOLoginViewController.xib */; };
 		2455555D214A737D0087D5F6 /* SSOLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2455555C214A737D0087D5F6 /* SSOLoginViewController.swift */; };
+		24555561214AA5A40087D5F6 /* SSOLoginViewControllerOff.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24555560214AA5A40087D5F6 /* SSOLoginViewControllerOff.xib */; };
+		24555563214BDA010087D5F6 /* SSOLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24555562214BDA010087D5F6 /* SSOLoginViewController.storyboard */; };
 		2495AD7B2122E3F300C15150 /* AdditionalPagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2495AD7A2122E3F300C15150 /* AdditionalPagesViewController.xib */; };
 		24D4BD51210905B100F4646A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D4BD50210905B100F4646A /* LaunchScreen.storyboard */; };
 		24D4BD532109080700F4646A /* launchBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 24D4BD522109080700F4646A /* launchBackground.png */; };
@@ -1026,8 +1027,9 @@
 		22F6A15E20BD2D05009C3F4A /* String+DecodeHTMLEntitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DecodeHTMLEntitiesTests.swift"; sourceTree = "<group>"; };
 		22F8A90F1F45EFAF0025E18A /* AccountViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountViewControllerTest.swift; path = ../Source/AccountViewControllerTest.swift; sourceTree = "<group>"; };
 		22F8A9131F4708A50025E18A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		2455555A214A6D490087D5F6 /* SSOLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSOLoginViewController.xib; sourceTree = "<group>"; };
 		2455555C214A737D0087D5F6 /* SSOLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSOLoginViewController.swift; sourceTree = "<group>"; };
+		24555560214AA5A40087D5F6 /* SSOLoginViewControllerOff.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSOLoginViewControllerOff.xib; sourceTree = "<group>"; };
+		24555562214BDA010087D5F6 /* SSOLoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SSOLoginViewController.storyboard; sourceTree = "<group>"; };
 		2495AD7A2122E3F300C15150 /* AdditionalPagesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdditionalPagesViewController.xib; sourceTree = "<group>"; };
 		24D4BD50210905B100F4646A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24D4BD522109080700F4646A /* launchBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchBackground.png; path = ../../../../design/launchBackground.png; sourceTree = "<group>"; };
@@ -2694,11 +2696,12 @@
 				198826E71952FE39005D4D8A /* OEXOpenInBrowserViewController.xib */,
 				B4B6D5E81A9490FC000F44E8 /* OEXRegistrationViewController.xib */,
 				2495AD7A2122E3F300C15150 /* AdditionalPagesViewController.xib */,
-				2455555A214A6D490087D5F6 /* SSOLoginViewController.xib */,
 				B4B6D6471A95CF33000F44E8 /* OEXUserLicenseAgreementViewController.xib */,
 				9E7D1BCB1AEA5BF5000AF768 /* OEXDownloadViewController.storyboard */,
 				9ED269D11AF114B900328A34 /* OEXLoginViewController.storyboard */,
 				24D4BD50210905B100F4646A /* LaunchScreen.storyboard */,
+				24555560214AA5A40087D5F6 /* SSOLoginViewControllerOff.xib */,
+				24555562214BDA010087D5F6 /* SSOLoginViewController.storyboard */,
 			);
 			name = XIB/Storyboard;
 			sourceTree = "<group>";
@@ -4064,7 +4067,7 @@
 				B71AA1AC20CEF64D00700C5E /* philosophy-ethics@3x.png in Resources */,
 				B71AA1A220CEF64D00700C5E /* ethics@3x.png in Resources */,
 				6926CDAF1D59BE3600A16E22 /* ic_progressbar.png in Resources */,
-				2455555B214A6D490087D5F6 /* SSOLoginViewController.xib in Resources */,
+				24555561214AA5A40087D5F6 /* SSOLoginViewControllerOff.xib in Resources */,
 				6987A86D1D6C67DB00E9D183 /* colors.json in Resources */,
 				B71AA1AE20CEF64D00700C5E /* computer-science@3x.png in Resources */,
 				6926CDAD1D59BE3600A16E22 /* ic_previous_press.png in Resources */,
@@ -4216,6 +4219,7 @@
 				69ECC6001D50D1170030CF87 /* OpenSans-ExtraBold.ttf in Resources */,
 				BD837BB91DC8D5D400341EFD /* Icon-76@2x.png in Resources */,
 				BD837BBB1DC8D5DF00341EFD /* Icon-40.png in Resources */,
+				24555563214BDA010087D5F6 /* SSOLoginViewController.storyboard in Resources */,
 				B71AA1B520CEF64D00700C5E /* music@2x.png in Resources */,
 				69ECC60B1D50D1170030CF87 /* Icon-40@2x.png in Resources */,
 			);

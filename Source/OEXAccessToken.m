@@ -46,11 +46,11 @@ static NSString* const OEXRefreshTokenKey = @"refresh_token";
 - (OEXAccessToken*)initWithTokenDetails:(NSDictionary*)dict {
     self = [super init];
     if(self) {
-        _accessToken = [dict objectForKey:OEXAccessTokenKey];
-        _tokenType = [dict objectForKey:OEXTokenTypeKey];
-        _expiryDate = [dict objectForKey:OEXExpiryDateKey];
-        _scope = [dict objectForKey:OEXScopeKey];
-        _refreshToken = [dict objectForKey:OEXRefreshTokenKey];
+        _accessToken = dict[OEXAccessTokenKey];
+        _tokenType = dict[OEXTokenTypeKey];
+        _expiryDate = dict[OEXExpiryDateKey];
+        _scope = dict[OEXScopeKey];
+        _refreshToken = dict[OEXRefreshTokenKey];
         if(!_accessToken) {
             self = nil;
         }
